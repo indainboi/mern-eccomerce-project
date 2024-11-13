@@ -123,7 +123,7 @@ const CreateProductForm = () => {
                         <Upload className="mr-2 h-5 w-5 inline-block" />
                         Upload Image
                     </label>
-                    {newProduct.image && <span className="ml-3 text-sm text-gray-400">Image uploaded {newProduct.image}</span>}
+                    {newProduct.image && <span className="ml-3 text-sm text-gray-400">Image uploaded</span>}
                 </div>
 
                 <button
